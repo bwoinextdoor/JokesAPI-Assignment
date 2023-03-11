@@ -1,20 +1,40 @@
-# Sentiment Analysis - Movie Reviews
-This assignment performs sentiment analysis on a sample of movie reviews provided by:
-```
-@InProceedings{maas-EtAl:2011:ACL-HLT2011,
-  author    = {Maas, Andrew L.  and  Daly, Raymond E.  and  Pham, Peter T.  and  Huang, Dan  and  Ng, Andrew Y.  and  Potts, Christopher},
-  title     = {Learning Word Vectors for Sentiment Analysis},
-  booktitle = {Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},
-  month     = {June},
-  year      = {2011},
-  address   = {Portland, Oregon, USA},
-  publisher = {Association for Computational Linguistics},
-  pages     = {142--150},
-  url       = {http://www.aclweb.org/anthology/P11-1015}
-}
-```
+# Jokes-API
+
+### Instructions to run on local Environment!
+
+> - Git clone master branch.
+> - Download and Install node https://nodejs.org/en/.
+> - Download and install Xampp https://www.apachefriends.org/download.html.
+> - Start Xampp and create database 'jokes'.
+> - In the backend folder of project there is a file called 'database.sql'. Import it into your db to seed some jokes.
+> - Navigate to backend folder of project and run 'npm install'. Once complete run 'npm start'.
+> - In a separate terminal navigate to frontend folder of the project and run 'npm install' . Once complete run 'npm run serve' . You should be able to access project @ http://localhost:8081/
+
+That should be it to run it on you local environment.
 
 # How to Run
-The repository doesn't store the dataset. You need to download it manyally, and extract it into the `data` directory.
-Then open up the Anaconda Notebook and run as normal.# JokesAPI-Assignment
-# JokesAPI-Assignment
+
+# jokes
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
